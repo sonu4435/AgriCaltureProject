@@ -1,0 +1,50 @@
+
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/MarkoOneRegular.ttf"); font-family : "Marko One"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/ManropeSemiBold.ttf"); font-family : "Manrope"; font-weight : 600;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/ManropeBold.ttf"); font-family : "Manrope"; font-weight : 700;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/ManropeExtraBold.ttf"); font-family : "Manrope"; font-weight : 800;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/ManropeRegular.ttf"); font-family : "Manrope"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/ManropeMedium.ttf"); font-family : "Manrope"; font-weight : 500;  }
+
+ @font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RobotoRegular.ttf");
+  font-family: "Roboto";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RobotoMedium.ttf");
+  font-family: "Roboto";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RobotoBold.ttf");
+  font-family: "Roboto";
+  font-weight: 700;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/MontserratRegular.ttf");
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/RobotoRomanMedium.ttf");
+  font-family: "Roboto";
+  font-weight: 500;
+}
+@font-face {
+  font-display: swap;
+  font-style: normal;
+  src: url("/public/fonts/PoppinsMedium.ttf");
+  font-family: "Poppins";
+  font-weight: 500;
+}
