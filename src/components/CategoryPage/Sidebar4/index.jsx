@@ -127,19 +127,19 @@ export default function Sidebar4({ userProps }) {
           <h3 class="sr-only">Categories</h3>
           <ul role="list" class="px-2 py-3 font-medium text-gray-900">
             <li>
-              <a href="#" class="block px-2 py-3">Totes</a>
+              <a href="#" class="block px-2 py-3">Resion</a>
             </li>
             <li>
-              <a href="#" class="block px-2 py-3">Backpacks</a>
+              <a href="#" class="block px-2 py-3">Grade</a>
             </li>
             <li>
-              <a href="#" class="block px-2 py-3">Travel Bags</a>
+              <a href="#" class="block px-2 py-3">Rating</a>
             </li>
             <li>
-              <a href="#" class="block px-2 py-3">Hip Bags</a>
+              <a href="#" class="block px-2 py-3">Low to high Price</a>
             </li>
             <li>
-              <a href="#" class="block px-2 py-3">Laptop Sleeves</a>
+              <a href="#" class="block px-2 py-3">high to low price</a>
             </li>
           </ul>
         </form >
@@ -170,15 +170,11 @@ export default function Sidebar4({ userProps }) {
                 </div>
                 <div class="flex items-center">
                   <input id="filter-mobile-category-2" name="category[]" value="travel" type="checkbox" checked class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"/>
-                    <label for="filter-mobile-category-2" class="ml-3 min-w-0 flex-1 text-gray-500">Travel</label>
+                    <label for="filter-mobile-category-2" class="ml-3 min-w-0 flex-1 text-gray-500">Quantity</label>
                 </div>
                 <div class="flex items-center">
                   <input id="filter-mobile-category-3" name="category[]" value="organization" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"/>
                     <label for="filter-mobile-category-3" class="ml-3 min-w-0 flex-1 text-gray-500">Organization</label>
-                </div>
-                <div class="flex items-center">
-                  <input id="filter-mobile-category-4" name="category[]" value="accessories" type="checkbox" class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"/>
-                    <label for="filter-mobile-category-4" class="ml-3 min-w-0 flex-1 text-gray-500">Accessories</label>
                 </div>
               </div>
             </div>

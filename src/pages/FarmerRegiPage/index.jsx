@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { Button, SelectBox, Img, Text, Input } from "../../components/Findex";
 import Header from "../../components/FarmerRegistration/Header";
 import Sidebar4 from "../../components/FarmerRegistration/Sidebar4";
+import { toast } from "react-toastify";
+// import { run } from "Server/Mongoose/userModel";
+
 
 const dropDownOptions = [
     { label: "Option1", value: "option1" },
@@ -11,6 +14,12 @@ const dropDownOptions = [
 ];
 
 export default function AddMenuPage({ userProps }) {
+
+
+    // useEffect(() => {
+    //     run()
+    // }, []);
+
     return (
         <>
             <Helmet>
@@ -25,9 +34,9 @@ export default function AddMenuPage({ userProps }) {
                         <div className="flex flex-row justify-between items-center w-full">
                             <div className="flex flex-col items-start justify-start gap-[7px]">
                                 <Text size="xl" as="p" className="!text-gray-700_01">
-                                    Add Menu
+                                    Add Products
                                 </Text>
-                                <Text as="p">Add Menu / Menu List / Categories</Text>
+                                <Text as="p">Add Products / Products List / Categories</Text>
                             </div>
                             <SelectBox
                                 indicator={<Img src="/public/Fimages/img_frame_11_white_a700.svg" alt="Frame 11" />}
@@ -39,7 +48,7 @@ export default function AddMenuPage({ userProps }) {
                         </div>
                         <div className="flex flex-col items-start justify-center w-full gap-[26px] p-5 bg-white-A700 shadow-md rounded-[15px]">
                             <Text as="p" className="mt-1.5 !text-gray-700_01 !font-medium">
-                                Choose Better Menu Type
+                                Choose Better Products Type
                             </Text>
                             <div className="flex flex-col items-start justify-start w-full mb-1 gap-[25px]">
                                 <div className="flex flex-row justify-start w-full">

@@ -10,10 +10,13 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "dotenv": "^16.0.1",
+    "express": "^4.18.3",
     "firebase": "^10.8.0",
     "googlemaps": "^1.12.0",
     "i": "^0.3.7",
-    "mongoose": "^8.2.0",
+    "mongodb": "4.1",
+    "mongoose": "^6.12.1",
+    "nodemon": "^3.1.0",
     "npm": "^10.4.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -28,7 +31,8 @@
     "react-router-hash-link": "^2.4.3",
     "react-select": "^5.8.0",
     "react-tabs": "^6.0.2",
-    "react-toastify": "^10.0.4"
+    "react-toastify": "^10.0.4",
+    "util.promisify": "^1.1.2"
   },
   "scripts": {
     "start": "vite",

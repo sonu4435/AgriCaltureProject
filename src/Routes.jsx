@@ -9,12 +9,13 @@ import CustomerRealHome from "pages/CustomerPage/RealHome";
 import LoadingPage from "pages/LoaingPage";
 import CategoriesPage from "pages/CustomerPage/Category";
 import AddMenuPage from "pages/FarmerRegiPage";
+
 const LandingPage = React.lazy(() => {
 
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(import("pages/LandingPage"));
-    }, 5000);
+    }, 2000);
   })
 });
 
